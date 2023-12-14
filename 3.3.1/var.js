@@ -11,3 +11,5 @@ console.log(exports)
 // ! exports === module.exports -> true;
 // ! 객체형식 일때만 치환하며 사용가능 
 // ! 함수를 넣을때는 저런형식으로 안됨!!! 
+
+console.log(require.main === module)
