@@ -1,8 +1,6 @@
-const yaho = require('./var')
+const {odd, even} = require('./var')
 //let count = {odd, even}
 // const {odd, even} = {odd : '홀수', even : '짝수'}
-
-const {odd, even} =yaho;
 function checkOddOrEven(num) {
   if(num % 2) {
     return odd;
