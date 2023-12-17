@@ -18,7 +18,7 @@ console.log('path.format():',path.format({
   ext: '.js',
   name: 'path'
 }));
-console.log('path.normalize():', path.normalize('C:\Users\/qjqmf\OneDrive\바탕 화면\Soloplay\Node.js\3.5.2\path.js'));
+// console.log('path.normalize():', path.normalize('C:\Users\/qjqmf\OneDrive\바탕 화면\Soloplay\Node.js\3.5.2\path.js'));
 console.log('path.isAbsolute(C:\\):'), path.isAbsolute('C:\\');
 console.log('path.isAbsolute(\Node.js):'), path.isAbsolute('\Node.js');
 console.log('path.join():', path.join(__filename));
